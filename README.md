@@ -6,7 +6,7 @@ You can use any languages, databases and tools you want.
 Submit your application on Github with a README file with build instructions, an explanation of the approach you took, and how you could potentially improve it in the future.
 
 ## Goal #1: load the product data into a database
-- Create a schema for the data in products.csv and inventory.csv
+- Create a schema for the data in [products.csv](https://github.com/bonobos/fullstack_homework/blob/master/products.csv) and [inventory.csv](https://github.com/bonobos/fullstack_homework/blob/master/inventory.csv)
 - Load the data into a database
 
 ## Goal #2: make an api for the data
