@@ -15,4 +15,4 @@ Create a web API to fetch the data you loaded into the database in part 1
 
 ## Goal #3: make a webpage that displays the data
 
-Call the API you made in part 2 and display a list of the inventory grouped by product
+Call the API you made in part 2 and display a single list of product and inventory data together.  Inventory should be grouped by product.
