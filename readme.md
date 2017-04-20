@@ -1,7 +1,5 @@
 # Pants Shop
-
-[[https://github.com/red-starter/pantsshop/blob/master/img/screenshot.png|alt=website]]
-
+![alt tag](https://github.com/red-starter/pantsshop/blob/master/img/screenshot.png)
 ## requirements
  - node.js > 5.0.0
  - mongo > 3.0.0
