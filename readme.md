@@ -1,5 +1,4 @@
 # Pants Shop
-![alt tag](https://github.com/red-starter/pantsshop/blob/master/img/screenshot.png)
 ## requirements
  - node.js > 5.0.0
  - mongo > 3.0.0
@@ -17,6 +16,8 @@
 - I used mongodb for the database, it is fast to get up and running. I used mongoose as a lightwight orm. The mongoose models and db connection logic is defined in models.
 - the parsing and database inserting logic is in scripts/readCsvAndSaveToDB.js , I also clear the database fo all the previous models in case there are any.
 - I decided to render server side using pug as templating library. The front end is static, if I had more time I thought of hiding inventory data and maybe magnifying the images on muosehover.
+
+![alt tag](https://github.com/red-starter/pantsshop/blob/master/img/screenshot.png)
 
 ## potential improvements
 - I could have spent spent more time styling the website, it is somewhat ugly :( . 
