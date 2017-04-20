@@ -1,14 +1,15 @@
 # Pants Shop
 
 ## requirements
-node.js > 5.0.0  and mongo > 3.0.0
-to install node -> https://nodejs.org/en/download/
-to install mongod -> https://docs.mongodb.com/manual/installation/
+ node.js > 5.0.0
+ mongo > 3.0.0
+ to install node -> https://nodejs.org/en/download/
+ to install mongod -> https://docs.mongodb.com/manual/installation/
 
 ## build 
- run 'npm install' to install dependencies
- 'npm run load' to load csv models into database and run the server
- 'npm start' to just the run server, it will be running on port 3000
+  run 'npm install' to install dependencies
+  'npm run load' to load csv models into database and run the server
+  'npm start' to just the run server, it will be running on port 3000
 
 ## approach taken
 - I used node.js with express to build a quick lightweight http server that connects to mongodb to retrieve data.
