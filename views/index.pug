@@ -1,0 +1,27 @@
+extends layout
+
+block content
+	h1= title
+	p Welcome to #{title}
+	ul(class="list-unstyled")
+		each product in products
+			li
+				div(class="row")
+					div(class="col-sm-6")
+						div(class='panel panel-default')
+							div(class='panel-heading')= product.product_name
+							div(class='panel-body')
+								p=product.product_description
+					div(class="col-sm-6")
+						img(class="img-thumbnail img-responsive" src=product.product_image height=150, width=150)
+				div(class="row")
+					each inventory in product.inventory
+						div(class="col-sm-3")
+							div(class='panel panel-default')
+								div(class='panel-heading')=inventory.style
+								div(class='panel-body')
+									p waist:  #{inventory.waist}
+									p length:  #{inventory.length}
+									p count: #{inventory.count}
+									
+
