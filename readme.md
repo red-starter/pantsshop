@@ -1,5 +1,7 @@
 # Pants Shop
 
+[[https://github.com/red-starter/pantsshop/blob/master/img/screenshot.png|alt=website]]
+
 ## requirements
  - node.js > 5.0.0
  - mongo > 3.0.0
